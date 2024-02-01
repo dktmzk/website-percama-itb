@@ -3,8 +3,8 @@
 
 export const SITE_TITLE = "Percama ITB | Persatuan Catur Mahasiswa ITB";
 export const SITE_DESCRIPTION =
-  "Welcome to my blog! I write about modern web development.";
-export const TWITTER_HANDLE = "@yourtwitterhandle";
+  "Selamat datang di website Percama ITB! Kami adalah Persatuan Catur Mahasiswa ITB yang berdiri sejak tahun 1976";
+export const TWITTER_HANDLE = "@PercamaITB";
 export const MY_NAME = "Percama ITB";
 
 // setup in astro.config.mjs
