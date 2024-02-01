@@ -1,0 +1,16 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+import PageMeta from "../components/PageMeta.astro";
+import { SITE_TITLE } from "../config";
+
+---
+
+<PageLayout>
+  <PageMeta title={`Kepengurusan | ${SITE_TITLE}`} slot="meta" />
+  <section slot="main" class="mt-20">
+    <strong>Struktur Organisasi</strong>
+    <p>buat gambar organogram</p><br>
+    <strong>Visi Misi</strong>
+    <p>teks visi misi</p>
+  </section>
+</PageLayout>
